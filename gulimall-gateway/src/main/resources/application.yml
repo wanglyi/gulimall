@@ -1,0 +1,13 @@
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: test_route
+#          uri: https://www.baidu.com
+#          predicates:
+#            - After=2017-01-20T17:42:47.789-07:00[America/Denver]
+#            - Query=hello,baidu
+#        - id: test_route
+#          uri: https://www.qq.com
+#          predicates:
+#            - Query=hello,qq
